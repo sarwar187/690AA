@@ -36,8 +36,20 @@ The code outputs the solution found by all the 4 techniques taught in class (Der
 
 4) Best of (3) and (2) giving a 3/4 approximation factor
 
-# Sum of Completion Times Problem
+# Minimize Sum of Completion Times Problem
 
+The code for this problem is in Completion_time.py. In order to use it please run python Completion_time.py. For input the user is asked to input the number of jobs, an array describing their release times and another array describing their processing times. Therefore an instance of running the code would look like the following:
 
+python Completion_time.py
+
+Number of jobs: 3
+
+Enter the release times of the jobs separated by space: 0 2 4
+
+Enter the processing times of the jobs separated by space: 2 4 1
+
+18
+
+The output of the code is the sum of completion times given by the approximation algorithm taught in class. In order to do this, first the pre-emptive version is coded up using the SRPT algorithm and then the order of completion times was used to find the non pre-emptive schedule providing a 2 factor approximation.
 
 
