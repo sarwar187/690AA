@@ -8,6 +8,9 @@
 # For each clause first enter the weight of the clause and then the number of literals in that clause 
 # Then enter the literals separated by space and the negation array separated by space on being prompted
 
+#are you assuming literals in a clause are ordered?
+#can we store the clauses already satisfied? It would reduce the complexity from n^2 to n
+
 import numpy as np  
 import random
 import sys
